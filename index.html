@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="imagelogo">
+
+        <div class="logo">
+            <img src="Images/odin-lined.png" alt = "Odin Logo">
+            <h1>ODIN</h1>
+        </div>
+
+        <p>
+            Photo by <a href="https://unsplash.com/@haliewestphoto">Hallie West</a> on <a href="https://unsplash.com/">Unsplash</a>
+        </p>
+    </div>
+    
+    <div class="welcomesection">
+        <div class="description-text">
+            <p>
+                This is not a real online service! You know you need something<br> like this in your life to help you realize your deepest dreams.<br>
+                Sign up <em>now</em> to get started.<br><br>
+                You <em>know</em> you want to!
+            </p>          
+        </div>
+
+        <div class="form">
+            <h2>Let's do this!</h2>
+
+            <div class="form-container">
+
+                <form id="passwordForm" method="post">
+
+                    <div class="column">
+    
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" id="firstName" name="firstName">
+        
+                        <label for="user-email">EMAIL</label>
+                        <input type="email" id="user-email" name="userEmail">
+        
+                        <label for="user-password">PASSWORD</label>
+                        <input type="password" id="user-password" name="userPassword">
+                        <span class="error-message" id="passwordError"></span>
+                    </div>
+                    
+                    <div class="column">
+    
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="lastName">
+        
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" id="phone-number" name="phoneNumber">
+        
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-password" name="confirmPassword">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="create-account">
+
+            <button type="button" id="create">
+                Create Account
+            </button>
+            <p>
+                Already have an account?<a href="#">Log in</a>
+            </p>
+
+        </div>
+
+    </div>
+</body>
+</html>

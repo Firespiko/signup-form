@@ -1,0 +1,172 @@
+@font-face {
+	font-family: NorseBold;
+	src: url(Norse-Bold.otf);
+}
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.imagelogo {
+	background-image:  url("../signup-form/Images/unsplash.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 35% ;
+	height: 100vh;
+}
+
+.welcomesection {
+	background-color: rgb(240, 240, 240);
+	width: 65%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.description-text {
+	height: 37%;
+
+}
+
+.form {
+	height: 38%;
+	background-color: white;
+	box-shadow: 0px 3px 3px 0px rgb(195, 194, 194);;
+}
+
+.create-account {
+	height: 25%;
+
+}
+
+.create-account a{
+	color: #596D48;
+}
+
+button {
+	padding: 10px 40px;
+	border-radius: 8px;
+	color: white;
+	background-color: #596D48;
+	cursor: pointer;
+	border: none;
+	transition: opacity 0.l5s;
+	margin: 25px;
+}
+
+button:hover {
+	opacity: 0.9;
+}
+
+button:active {
+	opacity: 0.75;
+}
+
+p {
+	margin-left: 25px ;
+}
+
+.description-text p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1rem;
+	margin-top: 90px;
+	font-weight: 700;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 25px;
+	margin-top: 15px;
+}
+
+form {
+	display: flex;
+	padding-left: 25px;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+	margin-bottom: 10px;
+	margin-right: 25%;
+}
+
+label {
+	font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+	font-size: 0.75rem;
+	font-weight: bold;
+	color: rgb(86, 84, 84);
+}
+
+input {
+    padding: 8px;
+	width: 250px;	
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+}
+
+input:invalid {
+	border: 1px solid red;
+}
+
+input:focus {
+	border: 1px solid blue;
+	outline: none;
+	box-shadow: 0px 3px 3px 1px rgb(195, 194, 194);
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0,0.5);
+	height: 120px;
+	margin-top: 150px;
+}
+
+img {
+	height: 100px;
+}
+h1 {
+	font-family: NorseBold;
+	color: white;
+	font-weight: bold;
+	font-size: 5.5rem;
+}
+
+.imagelogo a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75rem;
+	color: white;
+	opacity: 0.9;
+}
+
+.imagelogo p {
+	opacity: 0.9;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75rem;
+	color: white;
+	text-align: center;
+	position: relative;
+    top: 55vh;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875em;
+    display: none;
+}
+
+input.invalid {
+	outline: none;
+    border: 1px solid red;
+}
